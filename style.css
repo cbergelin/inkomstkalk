@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    height: 70vh;
+
+    width: 100%;
+
+}
+
+.upper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.inkomst__sum {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.utgift__sum {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    
+}
+
+.inkomst__value{
+        margin-left: 5px;
+        font-size: 1.5rem;
+    
+}
+
+.utgift__value{
+    margin-left: 5px;
+    font-size: 1.5rem;
+}
+
+.diff__value{
+    margin-left: 5px;
+    font-size: 1.5rem;
+}
+
+.diff {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.input__info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.inkomst__sum__rubrik {
+    color: green;
+}
+
+.utgift__sum__rubrik {
+    color: red;
+}
+
+.inkomster {
+    display: flex;
+    flex-direction: column;
+    color: green;
+}
+
+.utgifter {
+    display: flex;
+    flex-direction: column;
+    color: red;
+}
+
+.inkomster__item {
+    color: black;
+    font-size: 1.5rem;
+}
+
+.utgifter__item {
+    color: black;
+    font-size: 1.5rem;
+}
+
+span{
+    display: none;
+}
+
+input[type=number]{
+    width: 75px;
+    height: 45px;
+}
+
+input[type=text]{
+    height: 45px;
+}
+
+#add__typ{
+    height: 45px;
+}
+
+.add__btn{
+    height: 40px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    background: white;
+    border: none;
+    border-radius: 50px;
+}

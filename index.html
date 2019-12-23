@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="app.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="upper">
+        <div class="inkomst__sum">
+            <h1 class="inkomst__sum__rubrik">Inkomst:</h1><p class="inkomst__value"></p>
+        </div>
+        <div class="utgift__sum">
+            <h1 class="utgift__sum__rubrik">Utgift:</h1><p class="utgift__value"></p>
+        </div>
+        <div class="diff">
+            <h1 class="diff__rubrik">Total budget:</h1><p class="diff__value"></p>
+        </div>
+    </div> 
+    <br>
+    <br>
+    <br>
+    <div class="input__info">
+        <div class="add__container">
+            <select name="" id="add__typ">
+                <option value="ink">Inkomst</option>
+                <option value="utg">Utgift</option>
+            </select>
+            <input type="text" id="input__text" placeholder="Beskrivning" size="35">
+            <input type="number" class="input__nummer" placeholder="Värde" size="10">
+            <button class="add__btn">Räkna</button>
+        </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <div class="bottom">
+        <div class="inkomster">
+            <h1 class="inkomster__rubrik">Inkomster</h1>
+            <ul class="inkomster__item"></ul>
+        </div>
+        <div class="utgifter">
+            <h1 class="utgifter__rubrik">Utgifter</h1>
+            <p class="utgifter__item"></p>
+        </div>
+    </div>
+
+</body>
+
+</html>
